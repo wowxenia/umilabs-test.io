@@ -1,0 +1,77 @@
+@font-face
+  font-family: 'DINPro'
+  src: url('../font/DINPro.eot')
+  src: url('../font/DINPro.eot?#iefix') format('embedded-opentype'), url('../font/DINPro.woff') format('woff'), url('../font/DINPro.ttf') format('truetype'), url('../font/DINPro.svg') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Gilroy'
+  src: url('../font/Gilroy.eot')
+  src: url('../font/Gilroy.eot?#iefix') format('embedded-opentype'), url('../font/Gilroy.woff') format('woff'), url('../font/Gilroy.ttf') format('truetype'), url('../font/Gilroy.svg') format('svg')
+  font-weight: normal
+  font-style: normal
+
+$orange: #F47821
+$gray-light: #eaeaea
+$gray-dark: #222222
+
+span
+  background-color: white
+  color: $orange
+  font-weight: 700
+
+body
+  margin: 0
+
+.header
+  height: 600px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center  
+  h1
+    display: flex
+    margin: 165px auto 0
+    font-family: DINPro, Times New Roman, sans-serif
+    font-weight: 300
+    font-size: 48px
+    line-height: 54px
+    text-align: center
+    letter-spacing: -0.02em
+    color: $gray-dark
+  h3
+    display: flex
+    margin-top: 24px
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    line-height: 26px
+    text-align: center
+    color: #4A4556
+  button
+    display: flex
+    flex-direction: row
+    border: none
+    text-decoration: none
+    background-color: white
+    margin-top: 30px  
+ 
+.submit-bg
+  height: 54px
+  width: 54px
+  background: url('../img/plus-icon.png') no-repeat center $gray-light
+  border-radius: 111px
+  
+.submit-caption
+  display: flex
+  align-items: center
+  font-family: Gilroy
+  font-size: 16px
+  height: 54px
+  color: #222222  
+  line-height: normal
+  letter-spacing: 0.02em
+  text-transform: uppercase
+  margin-left: -8px
