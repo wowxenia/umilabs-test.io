@@ -15,24 +15,29 @@
 $orange: #F47821
 $gray-light: #eaeaea
 $gray-dark: #222222
+$purple: #F7F5FA
+$white: #FFFFFF
 
 span
-  background-color: white
+  background-color: #ffffff00
   color: $orange
   font-weight: 700
 
 body
-  margin: 0
+  margin: 0 auto
+  width: 1440px
+  background-color: #eaeaea3d
 
 .header
-  height: 600px
+  height: 480px
   display: flex
   flex-direction: column
   justify-content: center
-  align-items: center  
+  align-items: center
+  background-color: $white
   h1
     display: flex
-    margin: 165px auto 0
+    margin: 37px auto 0
     font-family: DINPro, Times New Roman, sans-serif
     font-weight: 300
     font-size: 48px
@@ -42,7 +47,7 @@ body
     color: $gray-dark
   h3
     display: flex
-    margin-top: 24px
+    margin-top: 24px auto 0
     font-family: Roboto
     font-style: normal
     font-weight: normal
@@ -56,12 +61,12 @@ body
     border: none
     text-decoration: none
     background-color: white
-    margin-top: 30px  
+    margin-top: 20px  
  
 .submit-bg
   height: 54px
   width: 54px
-  background: url('../img/plus-icon.png') no-repeat center $gray-light
+  background: url('../img/plus-icon.png') no-repeat center rgba(135, 135, 135, .05)
   border-radius: 111px
   
 .submit-caption
@@ -75,3 +80,308 @@ body
   letter-spacing: 0.02em
   text-transform: uppercase
   margin-left: -8px
+
+.main-pucture
+  background: url('../img/main-background.png') no-repeat 
+  background-size: 100%
+  height: 793px
+
+.wrap 
+  background-color: $purple
+  height: 1035px
+
+.question
+  margin: auto
+  width: 972px
+  height: 464px
+  display: flex
+  flex-wrap: wrap
+  background-color: $white
+  margin-top: -290px
+  &-item
+    width: 484.5px
+    height: 231px
+    // border: 1px solid #EDEDED   
+    h4
+      font-family: DINPro
+      font-size: 12px
+      line-height: 19px
+      letter-spacing: 0.04em
+      text-transform: uppercase
+      color: $orange
+      padding: 50px 0 0 60px
+      margin: 0
+    p
+      font-family: DINPro
+      font-size: 24px
+      line-height: normal
+      letter-spacing: -0.03em
+      color: $gray-dark
+      width: 337px
+      height: 90px
+      padding-left: 60px
+      margin-top: 12px
+      width: 350px;
+
+.border-left-top
+  border-left: 1px solid #EDEDED
+  border-top: 1px solid #EDEDED
+  border-right: .5px solid #EDEDED
+  border-bottom: .5px solid #EDEDED
+
+.border-right-top
+  border-left: .5px solid #EDEDED
+  border-top: 1px solid #EDEDED
+  border-right: 1px solid #EDEDED
+  border-bottom: .5px solid #EDEDED
+
+.border-bottom-left
+  border-right: .5px solid #EDEDED
+  border-bottom: 1px solid #EDEDED
+  border-left: 1px solid #EDEDED 
+  border-top: .5px solid #EDEDED
+
+.border-right-bottom
+  border-right: 1px solid #EDEDED
+  border-bottom: 1px solid #EDEDED
+  border-left: .5px solid #EDEDED 
+  border-top: .5px solid #EDEDED
+
+.wrap-white 
+  background-color: $white
+  width: 1440px
+.main-text
+  height: 720px
+  width: 680px
+  display: flex
+  flex-direction: column
+  margin: auto
+  background-color: $white
+  
+  h1
+    font-family: DINPro
+    font-size: 48px
+    line-height: normal
+    text-align: left
+    letter-spacing: -0.02em
+    width: 251px
+    height: 60px
+    margin: 80px 0 0
+  p
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 26px
+    color: #4E4D53
+    margin: 24px 0 0
+
+.wrap-purple
+  background-color: $purple
+.advantage
+  height: 450px
+  width: 1139px
+  margin: auto
+  display: flex
+  justify-content: space-around  
+  &-header
+    font-family: DINPro
+    font-size: 40px
+    line-height: normal
+    text-align: center
+    letter-spacing: -0.02em
+    text-align: center
+    padding: 120px 0 60px
+  &-item
+    display: flex
+    width: 326px
+    flex-direction: column
+    &-logo
+      background: url('../img/wallet-icon.png') no-repeat
+      height: 54px
+    h3
+      padding: 30px 0 20px 0
+      font-family: DINPro
+      font-size: 20px
+      line-height: normal
+      margin: 0
+    p
+      font-family: Roboto
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 26px
+    span
+      border-bottom: 2px solid $orange;
+      width: 24px;
+
+.footer
+  height: 1130px
+  background: #161616
+  display: flex
+  flex-direction: column
+  align-items: center
+  &-form-header
+    font-family: DINPro
+    font-size: 40px
+    line-height: 52px
+    text-align: center
+    letter-spacing: -0.02em
+    color: $white
+    padding: 100px 0 82px 0
+  &-form
+    width: 667px
+    height: 120px    
+    display: flex
+    flex-direction: row
+    margin-bottom: 48px
+    &-number
+      border: 1px solid #ffffff45
+      border-radius: 32px
+      width: 64px
+      height: 64px
+      margin-right: 28px      
+      p
+        color: $orange
+        width: 64px
+        height: 64px
+        font-family: Roboto
+        font-style: normal
+        font-weight: 500
+        font-size: 20px
+        line-height: normal
+        display: flex
+        justify-content: center
+    &-question
+      font-family: DINPro
+      font-size: 16px
+      line-height: 25px
+      letter-spacing: -0.01em
+      color: $white
+      display: flex
+      align-items: center
+      height: 64px
+      padding-top: 20px
+      height: 25px
+    &-input
+      border-bottom: 1px solid #f7f8fa1c
+      width: 573px
+      input
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 35px
+        letter-spacing: -0.01em
+        color: $white
+        opacity: 0.3
+        background-color: #161616
+        border: none
+        width: 224px
+        height: 35px
+        padding-top: 24px 
+    &-textarea
+      border-bottom: 1px solid #f7f8fa1c
+      width: 667px
+      height: 150px 
+      textarea
+        width: 575px
+        height: 70px
+        border: none
+        resize: none
+        background-color: #161616
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        color: #FFFFFF
+        opacity: 0.7
+        font-size: 24px
+        line-height: 35px
+        letter-spacing: -0.01em
+        margin-top: 20px
+        padding: 0
+
+textarea:focus, input:focus
+    outline: none
+
+input::-webkit-input-placeholder 
+  text-indent: 0px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+  color: $white
+input::-moz-placeholder
+  text-indent: 0px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+input:-moz-placeholder
+  text-indent: 0px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+input:-ms-input-placeholder
+  text-indent: 0px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+input:focus::-webkit-input-placeholder
+  text-indent: 600px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+input:focus::-moz-placeholder
+  text-indent: 600px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+input:focus:-moz-placeholder
+  text-indent: 600px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+input:focus:-ms-input-placeholder
+  text-indent: 600px
+  transition: text-indent 0.3s ease
+  background-color: #161616  
+
+textarea::-webkit-textarea-placeholder 
+  text-indent: 0px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+textarea::-moz-placeholder
+  text-indent: 0px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+textarea:-moz-placeholder
+  text-indent: 0px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+textarea:-ms-textarea-placeholder
+  text-indent: 0px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+textarea:focus::-webkit-textarea-placeholder
+  text-indent: 600px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+textarea:focus::-moz-placeholder
+  text-indent: 600px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+textarea:focus:-moz-placeholder
+  text-indent: 600px
+  transition: text-indent 0.3s ease
+  background-color: #161616
+textarea:focus:-ms-textarea-placeholder
+  text-indent: 600px
+  transition: text-indent 0.3s ease
+  background-color: #161616     
+
+.submit
+    background: $white
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12)
+    border-radius: 111px
+    border: none
+    width: 574px
+    height: 54px
+    font-family: Gilroy
+    font-size: 14px
+    line-height: normal
+    letter-spacing: 0.04em
+    text-transform: uppercase
+    color: $orange  
+    margin-top: 42px 
