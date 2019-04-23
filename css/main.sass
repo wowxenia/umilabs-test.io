@@ -61,14 +61,24 @@ body
     border: none
     text-decoration: none
     background-color: white
-    margin-top: 20px  
+    margin-top: 20px
+    &:hover>.submit-bg
+      width: 234px
+      cursor: pointer   
+      transition: .5s 
+    &:hover>.submit-caption
+      margin-left: -188px 
+      cursor: pointer
+      transition: .5s
  
 .submit-bg
   height: 54px
   width: 54px
-  background: url('../img/plus-icon.png') no-repeat center rgba(135, 135, 135, .05)
+  background: url('../img/plus-icon.png') no-repeat left rgba(135, 135, 135, .05)
+  background-position: 20px
   border-radius: 111px
-  
+  transition: all .5s ease-in-out
+
 .submit-caption
   display: flex
   align-items: center
@@ -80,26 +90,27 @@ body
   letter-spacing: 0.02em
   text-transform: uppercase
   margin-left: -8px
+  transition: all .5s ease-in-out  
 
-.main-pucture
+.main-picture
   background: url('../img/main-background.png') no-repeat 
   background-size: 100%
   height: 793px
 
-.wrap 
+.wrap-main-picture
   background-color: $purple
   height: 1035px
 
 .question
   margin: auto
-  width: 972px
+  width: 971px
   height: 464px
   display: flex
   flex-wrap: wrap
   background-color: $white
   margin-top: -290px
   &-item
-    width: 484.5px
+    width: 483.5px
     height: 231px
     // border: 1px solid #EDEDED   
     h4
@@ -147,24 +158,23 @@ body
   border-left: .5px solid #EDEDED 
   border-top: .5px solid #EDEDED
 
-.wrap-white 
+.wrap-main-content
   background-color: $white
   width: 1440px
-.main-text
+.main-content
   height: 720px
   width: 680px
   display: flex
   flex-direction: column
   margin: auto
-  background-color: $white
-  
+  background-color: $white  
   h1
     font-family: DINPro
     font-size: 48px
     line-height: normal
     text-align: left
     letter-spacing: -0.02em
-    width: 251px
+    width: 261px
     height: 60px
     margin: 80px 0 0
   p
@@ -176,9 +186,9 @@ body
     color: #4E4D53
     margin: 24px 0 0
 
-.wrap-purple
+.wrap-advantages
   background-color: $purple
-.advantage
+.advantages
   height: 450px
   width: 1139px
   margin: auto

@@ -86,11 +86,28 @@ body {
   margin-top: 20px;
 }
 
+.header button:hover > .submit-bg {
+  width: 234px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.header button:hover > .submit-caption {
+  margin-left: -188px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
 .submit-bg {
   height: 54px;
   width: 54px;
-  background: url("../img/plus-icon.png") no-repeat center rgba(135, 135, 135, 0.05);
+  background: url("../img/plus-icon.png") no-repeat left rgba(135, 135, 135, 0.05);
+  background-position: 20px;
   border-radius: 111px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .submit-caption {
@@ -108,22 +125,24 @@ body {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   margin-left: -8px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
-.main-pucture {
+.main-picture {
   background: url("../img/main-background.png") no-repeat;
   background-size: 100%;
   height: 793px;
 }
 
-.wrap {
+.wrap-main-picture {
   background-color: #F7F5FA;
   height: 1035px;
 }
 
 .question {
   margin: auto;
-  width: 972px;
+  width: 971px;
   height: 464px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,7 +154,7 @@ body {
 }
 
 .question-item {
-  width: 484.5px;
+  width: 483.5px;
   height: 231px;
 }
 
@@ -191,12 +210,12 @@ body {
   border-top: .5px solid #EDEDED;
 }
 
-.wrap-white {
+.wrap-main-content {
   background-color: #FFFFFF;
   width: 1440px;
 }
 
-.main-text {
+.main-content {
   height: 720px;
   width: 680px;
   display: -webkit-box;
@@ -210,18 +229,18 @@ body {
   background-color: #FFFFFF;
 }
 
-.main-text h1 {
+.main-content h1 {
   font-family: DINPro;
   font-size: 48px;
   line-height: normal;
   text-align: left;
   letter-spacing: -0.02em;
-  width: 251px;
+  width: 261px;
   height: 60px;
   margin: 80px 0 0;
 }
 
-.main-text p {
+.main-content p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -231,11 +250,11 @@ body {
   margin: 24px 0 0;
 }
 
-.wrap-purple {
+.wrap-advantages {
   background-color: #F7F5FA;
 }
 
-.advantage {
+.advantages {
   height: 450px;
   width: 1139px;
   margin: auto;
@@ -246,7 +265,7 @@ body {
       justify-content: space-around;
 }
 
-.advantage-header {
+.advantages-header {
   font-family: DINPro;
   font-size: 40px;
   line-height: normal;
@@ -256,7 +275,7 @@ body {
   padding: 120px 0 60px;
 }
 
-.advantage-item {
+.advantages-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,12 +286,12 @@ body {
           flex-direction: column;
 }
 
-.advantage-item-logo {
+.advantages-item-logo {
   background: url("../img/wallet-icon.png") no-repeat;
   height: 54px;
 }
 
-.advantage-item h3 {
+.advantages-item h3 {
   padding: 30px 0 20px 0;
   font-family: DINPro;
   font-size: 20px;
@@ -280,7 +299,7 @@ body {
   margin: 0;
 }
 
-.advantage-item p {
+.advantages-item p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -288,7 +307,7 @@ body {
   line-height: 26px;
 }
 
-.advantage-item span {
+.advantages-item span {
   border-bottom: 2px solid #F47821;
   width: 24px;
 }
