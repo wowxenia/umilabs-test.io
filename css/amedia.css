@@ -60,12 +60,13 @@
     background-color: white;
   }
   .question-item h4{
-    font-size: 40px;
+    font-size: 32px;
     padding: 0px 15px;
     margin: auto;
+    margin-bottom: 20px
   }
   .question-item p {
-    font-size: 45px;
+    font-size: 42px;
     width: 100%;
     padding: 24px;
     height: auto;
@@ -83,6 +84,10 @@
 
   .wrap-main-picture {
     height: 1270px;
+  }
+  .main-picture {
+    background-position: 50% 90%;
+    height: 800px;
   }
 
   .main-content {
@@ -123,7 +128,11 @@
 
 @media screen and (max-device-width: 480px) {
   .wrap-main-picture {
-    height: 1720px;
+    height: 1580px;
+  }
+  .main-picture {
+    background-position: 0% 0%;
+    height: 650px;
   }
   .main-content {
     width: 70%;
@@ -142,6 +151,10 @@
     width: 33%;
     height: 520px;
     margin: 0 20px;
+  }
+  .advantages-item h3 {
+    font-size: 35px;
+  }
 }
 
 @media screen and (max-device-width: 320px) {
@@ -149,12 +162,12 @@
     font-size: 26px;
   }
   .wrap-main-picture {
-    height: 2540px;
+    height: 2550px;
   }
   .main-picture {
     background-position: 0% 0%;
     height: 500px;
-}
+  }
   .question-item {
     width: 900px;
     height: 450px;
@@ -167,4 +180,23 @@
   }
   .question-item p {
     margin: 50px auto 0px;
+  }
+  .advantages {
+    width: 95%;
+    height: 670px;
+  }
+  .advantages-item {
+    width: 33%;
+    height: 625px;
+  }
+  .advantages-item h3 {
+    font-size: 28px;
+  }
+  .main-content {
+    width: 80%;
+  }
+  .main-content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
