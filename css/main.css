@@ -21,9 +21,12 @@ span {
 }
 
 body {
-  margin: 0 auto;
-  width: 1440px;
   background-color: #eaeaea3d;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .header {

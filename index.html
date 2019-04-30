@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.25">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Umilabs-test</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">  
+  <link rel="stylesheet" href="css/normalize.css">  
+  <link rel="stylesheet" href="css/main.css"> 
+  <link rel="stylesheet" href="css/amedia.css"> 
   <link rel="stylesheet" href="js/script.js">
 </head>
 <body>
@@ -43,8 +44,7 @@
           </div>
         </div>
       </div>
-    </div>  
-   
+    </div>     
 
   <div class="container">
     <div class="wrap-main-content">
@@ -130,7 +130,8 @@
                 <div class="footer-form-number"><p>3</p></div>                
                 <div class="footer-form-input">
                     <div class="footer-form-question">Телефон</div>
-                    <input name="number" type="text" class="feedback-input" placeholder="+7 (999)-328-14-20">
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required class="feedback-input" 
+                            placeholder="+7 (999)-328-14-20">
                 </div>
             </div>
 
@@ -141,7 +142,6 @@
                       <textarea placeholder="Свой проект по созданию универсальной инфраструктуры строительства"></textarea>
                   </div>    
             </div>
-
             <input class="submit" type="submit" value="Отправить">
 
     </div>
