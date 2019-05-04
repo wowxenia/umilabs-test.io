@@ -146,6 +146,9 @@
 }
 
 @media screen and (max-device-width: 480px) {
+  body {
+    margin: 0;
+  }
   .submit-caption {
     font-size: 25px;
     height: 76px;
@@ -205,6 +208,9 @@
 }
 
 @media screen and (max-device-width: 320px) {
+  body {
+    margin: 0;
+  }
   .submit-caption {
     font-size: 25px;
     height: 76px;
