@@ -25,8 +25,6 @@
     font-size: 25px;
     height: 76px;
   }
-
-
   .main-picture {
     background-position: 50% 90%;
   }
@@ -60,15 +58,12 @@
     text-align: center;
     width: 90%;
   }
-
-
   .wrap-main-content {
     display: flex;
     width: 100%;
     /* margin: 225px auto 0; */
     padding-bottom: 30px;
   }
-
   .wrap-main-picture {
     height: 1270px;
   }
@@ -76,7 +71,6 @@
     background-position: 50% 90%;
     height: 800px;
   }
-
   .main-content {
     width: 55%;
     height: auto;
@@ -90,8 +84,6 @@
     font-size: 28px;
     line-height: 50px;
   }
-
-
   .advantages-header{
     font-size: 60px;
   }
@@ -111,7 +103,6 @@
     font-size: 30px;
     line-height: 40px;
   }
-
   .footer-form-header {
     font-size: 52px;
   }

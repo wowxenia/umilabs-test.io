@@ -148,7 +148,7 @@ body {
 }
 
 .question {
-  margin: auto;
+  margin: -290px auto 0px;
   width: 971px;
   height: 464px;
   display: -webkit-box;
@@ -156,13 +156,12 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #FFFFFF;
-  margin-top: -290px;
 }
 
 .question-item {
   width: 483.5px;
   height: 231px;
+  background-color: #FFFFFF;
 }
 
 .question-item h4 {
@@ -190,31 +189,31 @@ body {
 }
 
 .border-left-top {
-  border-left: 1px solid #EDEDED;
-  border-top: 1px solid #EDEDED;
-  border-right: .5px solid #EDEDED;
-  border-bottom: .5px solid #EDEDED;
+  border-left: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  border-right: 0.5px solid #ededed;
+  border-bottom: 0.5px solid #ededed;
 }
 
 .border-right-top {
-  border-left: .5px solid #EDEDED;
-  border-top: 1px solid #EDEDED;
-  border-right: 1px solid #EDEDED;
-  border-bottom: .5px solid #EDEDED;
+  border-left: 0.5px solid #ededed;
+  border-top: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+  border-bottom: 0.5px solid #ededed;
 }
 
 .border-bottom-left {
-  border-right: .5px solid #EDEDED;
-  border-bottom: 1px solid #EDEDED;
-  border-left: 1px solid #EDEDED;
-  border-top: .5px solid #EDEDED;
+  border-right: 0.5px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  border-left: 1px solid #ededed;
+  border-top: 0.5px solid #ededed;
 }
 
 .border-right-bottom {
-  border-right: 1px solid #EDEDED;
-  border-bottom: 1px solid #EDEDED;
-  border-left: .5px solid #EDEDED;
-  border-top: .5px solid #EDEDED;
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  border-left: 0.5px solid #ededed;
+  border-top: 0.5px solid #ededed;
 }
 
 .wrap-main-content {

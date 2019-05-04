@@ -6,43 +6,44 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Umilabs-test</title>  
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">     
-  <link rel="stylesheet" href="css/amedia.css"> 
-  <link rel="stylesheet" href="js/script.js">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">     
+  <link rel="stylesheet" href="css/amedia.css">   
+  <link rel="stylesheet" href="js/script.js">    
 </head>
 <body>
   <div class="container">
     <div class="header">
       <h1>Ты готов стать профессионалом?</h1>
       <h3>Мы ищем <span>&nbsp;талантов</span>&nbsp;и&nbsp;<span>саппортов</span>&nbsp;в команду. Решите на какую категорию вы претендуете. </h3>
-      <button>
+      <button class="wow fadeIn delay-custom">
         <div class="submit-bg"></div>
-        <div class="submit-caption">Заполнить анкету</div>
+        <div class="submit-caption ">Заполнить анкету</div>
       </button>
     </div>
   </div>
 
   <div class="container">
     <div class="wrap-main-picture">
-      <div class="main-picture"></div>
-      <div class="question">
-          <div class="question-item border-left-top">
-            <h4>Прокачиваем мир</h4>
-            <p>Вы хотите сделать мир лучше и не готовы ждать всю жизнь, чтобы начать это делать?</p>
+      <div class="main-picture"></div> 
+        <div class="question wow fadeInUp delay-custom">
+            <div class="question-item border-left-top">
+              <h4>Прокачиваем мир</h4>
+              <p>Вы хотите сделать мир лучше и не готовы ждать всю жизнь, чтобы начать это делать?</p>
+            </div>
+            <div class="question-item border-right-top">
+              <h4>Мотивируем себя</h4>
+              <p>У вас есть собственная цель и вы не боитесь много работать, чтобы её достичь?</p>
+            </div>
+            <div class="question-item border-bottom-left">
+              <h4>Используем лучшее</h4>
+              <p>Вы способны применять разные подходы для достижения своих целей?</p>
+            </div>
+            <div class="question-item border-right-bottom">
+              <h4>Относимся с пониманием</h4>
+              <p>Вы не обвиняете других в свои неудачах и способны воспринимать критику?</p>
+            </div>
           </div>
-          <div class="question-item border-right-top">
-            <h4>Мотивируем себя</h4>
-            <p>У вас есть собственная цель и вы не боитесь много работать, чтобы её достичь?</p>
-          </div>
-          <div class="question-item border-bottom-left">
-            <h4>Используем лучшее</h4>
-            <p>Вы способны применять разные подходы для достижения своих целей?</p>
-          </div>
-          <div class="question-item border-right-bottom">
-            <h4>Относимся с пониманием</h4>
-            <p>Вы не обвиняете других в свои неудачах и способны воспринимать критику?</p>
-          </div>
-        </div>
       </div>
     </div>     
 
@@ -79,7 +80,7 @@
   <div class="container wrap-advantages">    
       <div class="advantages-header">Приемущества работы с нами</div>
       <div class="advantages">
-      <div class="advantages-item">
+      <div class="advantages-item wow fadeInLeft delay-custom">
           <div class="advantages-item-logo"></div>
           <h3>Делимся оптом и навыками</h3>
           <span></span>
@@ -87,7 +88,7 @@
             Наш опыт уникален и проверен временем, а команда постоянно совершенствует свои знания и навыки.
           </p>
       </div>
-      <div class="advantages-item">
+      <div class="advantages-item wow zoomIn delay-custom">
           <div class="advantages-item-logo"></div>
           <h3>Стабильная зарплата</h3>
           <span></span>
@@ -95,7 +96,7 @@
             Также мы оплачиваем больничные и даем возможность брать оплачиваемый отпуск до 4 недель в год.
           </p>
       </div>
-      <div class="advantages-item">
+      <div class="advantages-item wow fadeInRight delay-custom">
           <div class="advantages-item-logo"></div>
           <h3>Делимся оптом и навыками</h3>
           <span></span>
@@ -146,5 +147,9 @@
 
     </div>
   </div>
+  <script src="js/wow.min.js"></script>
+      <script>
+       new WOW().init();
+     </script>
 </body>
 </html>
