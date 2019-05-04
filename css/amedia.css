@@ -1,20 +1,3 @@
-/* @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .header {
-    height: 400px;
-    width: 100%;
-  }
-  .container {
-    width: 100%;
-    height: 100%;
-  }
-  .main-picture {
-    background-size: 100%;
-  }
-  .question{
-    width: 100%;
-  }
-} */
-
 @media screen and (max-device-width: 768px) {
   .container {
     width: 100%;
@@ -36,7 +19,7 @@
   }
   .submit-caption {
     font-size: 25px;
-    height: 73px;
+    height: 76px;
   }
 
 
@@ -124,9 +107,45 @@
     font-size: 30px;
     line-height: 40px;
   }
+
+  .footer-form-header {
+    font-size: 52px;
+  }
+  .footer-form-question {
+    font-size: 42px;
+    line-height: 37px;
+  }
+  .footer-form {
+    width: 50%;
+  }
+  .footer-form-input {
+    width: 85%;
+  }
+  .footer-form-input input{
+    font-size: 35px;
+    width: 100%;
+  }  
+  .footer-form-textarea {
+    width: 85%;
+  }
+  .footer-form-textarea textarea {
+    width: 85%;
+    margin-top: 50px;
+    height: 40px;
+    font-size: 35px;
+  }
+  .submit {
+    font-size: 27px;
+    width: 590px;
+    height: 70px;
+  }
 }
 
 @media screen and (max-device-width: 480px) {
+  .submit-caption {
+    font-size: 25px;
+    height: 76px;
+  }
   .wrap-main-picture {
     height: 1535px;
   }
@@ -142,6 +161,9 @@
   .main-content p {
     font-size: 20px;
     line-height: 40px;
+  }
+  .question-item h4 {
+    text-align: center;
   }
   .advantages {
     width: 92%;
@@ -170,7 +192,8 @@
   }
   .footer-form-textarea textarea {
     width: 85%;
-    margin-top: 28px;
+    margin-top: 40px;
+    height: 28px;
   }
   .submit {
     font-size: 22px;
@@ -178,6 +201,10 @@
 }
 
 @media screen and (max-device-width: 320px) {
+  .submit-caption {
+    font-size: 25px;
+    height: 76px;
+  }
   .header h3 {
     font-size: 26px;
   }
