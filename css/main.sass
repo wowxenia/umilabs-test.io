@@ -15,8 +15,10 @@
 $orange: #F47821
 $gray-light: #eaeaea
 $gray-dark: #222222
-$purple: #F7F5FA
+$lavender: #F7F5FA
 $white: #FFFFFF
+$smoky-white: #ededed
+$gray-umber: #161616
 
 span
   background-color: #ffffff00
@@ -77,9 +79,8 @@ body
   height: 54px
   width: 54px
   background: url('../img/plus-icon.png') no-repeat rgba(135, 135, 135, .05)
-  background-position: 20px
+  background-position: 20px 20px
   border-radius: 111px
-  transition: all .5s ease-in-out
   backface-visibility: hidden
   transform: translateZ(0)
 
@@ -93,8 +94,7 @@ body
   line-height: normal
   letter-spacing: 0.02em
   text-transform: uppercase
-  margin-left: -8px
-  transition: all .5s ease-in-out
+  margin-left: -8px  
   backface-visibility: hidden
   transform: translateZ(0) 
 
@@ -104,7 +104,7 @@ body
   height: 793px
 
 .wrap-main-picture
-  background-color: $purple
+  background-color: $lavanda
   height: 1035px
 
 .question
@@ -117,8 +117,7 @@ body
   margin-top: -290px
   &-item
     width: 483.5px
-    height: 231px
-    // border: 1px solid #EDEDED   
+    height: 231px   
     h4
       font-family: DINPro
       font-size: 12px
@@ -141,28 +140,28 @@ body
       width: 350px;
 
 .border-left-top
-  border-left: 1px solid #EDEDED
-  border-top: 1px solid #EDEDED
-  border-right: .5px solid #EDEDED
-  border-bottom: .5px solid #EDEDED
+  border-left: 1px solid $smoky-white
+  border-top: 1px solid $smoky-white
+  border-right: .5px solid $smoky-white
+  border-bottom: .5px solid $smoky-white
 
 .border-right-top
-  border-left: .5px solid #EDEDED
-  border-top: 1px solid #EDEDED
-  border-right: 1px solid #EDEDED
-  border-bottom: .5px solid #EDEDED
+  border-left: .5px solid $smoky-white
+  border-top: 1px solid $smoky-white
+  border-right: 1px solid $smoky-white
+  border-bottom: .5px solid $smoky-white
 
 .border-bottom-left
-  border-right: .5px solid #EDEDED
-  border-bottom: 1px solid #EDEDED
-  border-left: 1px solid #EDEDED 
-  border-top: .5px solid #EDEDED
+  border-right: .5px solid $smoky-white
+  border-bottom: 1px solid $smoky-white
+  border-left: 1px solid $smoky-white 
+  border-top: .5px solid $smoky-white
 
 .border-right-bottom
-  border-right: 1px solid #EDEDED
-  border-bottom: 1px solid #EDEDED
-  border-left: .5px solid #EDEDED 
-  border-top: .5px solid #EDEDED
+  border-right: 1px solid $smoky-white
+  border-bottom: 1px solid $smoky-white
+  border-left: .5px solid $smoky-white 
+  border-top: .5px solid $smoky-white
 
 .wrap-main-content
   background-color: $white
@@ -193,7 +192,7 @@ body
     margin: 24px 0 0
 
 .wrap-advantages
-  background-color: $purple
+  background-color: $lavender
 .advantages
   height: 450px
   width: 1139px
@@ -233,7 +232,7 @@ body
 
 .footer
   height: 1130px
-  background: #161616
+  background: $gray-umber
   display: flex
   flex-direction: column
   align-items: center
@@ -291,7 +290,7 @@ body
         letter-spacing: -0.01em
         color: $white
         opacity: 0.3
-        background-color: #161616
+        background-color: $gray-umber
         border: none
         width: 224px
         height: 35px
@@ -305,7 +304,7 @@ body
         height: 70px
         border: none
         resize: none
-        background-color: #161616
+        background-color: $gray-umber
         font-family: Roboto
         font-style: normal
         font-weight: normal
@@ -323,36 +322,36 @@ textarea:focus, input:focus
 input::-webkit-input-placeholder 
   text-indent: 0px
   transition: text-indent 0.3s ease
-  background-color: #161616
+  background-color: $gray-umber
   color: $white
 input::-moz-placeholder
   text-indent: 0px
   transition: text-indent 0.3s ease
-  background-color: #161616
+  background-color: $gray-umber
 input:-moz-placeholder
   text-indent: 0px
   transition: text-indent 0.3s ease
-  background-color: #161616
+  background-color: $gray-umber
 input:-ms-input-placeholder
   text-indent: 0px
   transition: text-indent 0.3s ease
-  background-color: #161616
+  background-color: $gray-umber
 input:focus::-webkit-input-placeholder
   text-indent: 1200px
   transition: text-indent 0.3s ease
-  background-color: #161616
+  background-color: $gray-umber
 input:focus::-moz-placeholder
   text-indent: 1200px
   transition: text-indent 0.3s ease
-  background-color: #161616
+  background-color: $gray-umber
 input:focus:-moz-placeholder
   text-indent: 1200px
   transition: text-indent 0.3s ease
-  background-color: #161616
+  background-color: $gray-umber
 input:focus:-ms-input-placeholder
   text-indent: 1200px
   transition: text-indent 0.3s ease
-  background-color: #161616  
+  background-color: $gray-umber  
    
 
 .submit
