@@ -110,10 +110,6 @@ body {
   background: url("../img/plus-icon.png") no-repeat rgba(135, 135, 135, 0.05);
   background-position: 20px 20px;
   border-radius: 111px;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
 }
 
 .submit-caption {
@@ -131,10 +127,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   margin-left: -8px;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
 }
 
 .main-picture {
