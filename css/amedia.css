@@ -128,11 +128,11 @@
 
 @media screen and (max-device-width: 480px) {
   .wrap-main-picture {
-    height: 1580px;
+    height: 1535px;
   }
   .main-picture {
     background-position: 0% 0%;
-    height: 650px;
+    height: 605px;
   }
   .main-content {
     width: 70%;
