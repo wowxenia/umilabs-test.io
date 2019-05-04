@@ -474,28 +474,28 @@ input:-ms-input-placeholder {
 }
 
 input:focus::-webkit-input-placeholder {
-  text-indent: 600px;
+  text-indent: 1000px;
   -webkit-transition: text-indent 0.3s ease;
   transition: text-indent 0.3s ease;
   background-color: #161616;
 }
 
 input:focus::-moz-placeholder {
-  text-indent: 600px;
+  text-indent: 1000px;
   -webkit-transition: text-indent 0.3s ease;
   transition: text-indent 0.3s ease;
   background-color: #161616;
 }
 
 input:focus:-moz-placeholder {
-  text-indent: 600px;
+  text-indent: 1000px;
   -webkit-transition: text-indent 0.3s ease;
   transition: text-indent 0.3s ease;
   background-color: #161616;
 }
 
 input:focus:-ms-input-placeholder {
-  text-indent: 600px;
+  text-indent: 1000px;
   -webkit-transition: text-indent 0.3s ease;
   transition: text-indent 0.3s ease;
   background-color: #161616;
