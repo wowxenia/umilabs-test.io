@@ -86,7 +86,7 @@
   }
   .wrap-advantages {
     height: auto;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
   .advantages-header{
     font-size: 60px;
@@ -169,6 +169,10 @@
   .question-item h4 {
     text-align: center;
   }
+  .wrap-advantages {
+    height: auto;
+    padding: 0px;
+  }
   .advantages {
     width: 92%;
     height: 560px;
@@ -238,7 +242,7 @@
   }
   .advantages {
     width: 95%;
-    height: 620px;
+    height: 520px;
   }
   .advantages-item {
     width: 33%;
@@ -274,7 +278,7 @@
   }
   .footer-form-textarea textarea {
     width: 100%;
-    height: 60px;
+    height: 65px;
     margin-top: 28px;
   }
   .submit {
