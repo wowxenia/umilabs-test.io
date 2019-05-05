@@ -402,7 +402,7 @@ body {
   letter-spacing: -0.01em;
   color: #FFFFFF;
   opacity: 0.3;
-  background-color: #161616;
+  background: none;
   border: none;
   width: 224px;
   height: 35px;
