@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">     
   <link rel="stylesheet" href="css/amedia.css">   
-  <link rel="stylesheet" href="js/script.js">    
+     
 </head>
 <body>
   <div class="container">
@@ -115,7 +115,7 @@
             <div class="footer-form-number"><p>1</p></div>            
             <div class="footer-form-input">
                 <div class="footer-form-question">Фамилия и имя</div>
-                <input name="name" type="text" class="feedback-input" placeholder="Сидоров Александр">
+                <input name="name" id="name" type="text" class="feedback-input" placeholder="Сидоров Александр">
             </div>            
           </div>
 
@@ -123,7 +123,7 @@
               <div class="footer-form-number"><p>2</p></div>              
               <div class="footer-form-input">
                   <div class="footer-form-question">Электронная почта</div>
-                  <input name="email" type="email" class="feedback-input" placeholder="Sidorov@yandex.ru">
+                  <input name="email" id="email" type="email" class="feedback-input" placeholder="Sidorov@yandex.ru">
               </div>             
           </div>
 
@@ -131,7 +131,7 @@
                 <div class="footer-form-number"><p>3</p></div>                
                 <div class="footer-form-input">
                     <div class="footer-form-question">Телефон</div>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required class="feedback-input" 
+                    <input type="tel" id="phone" name="phone" class="feedback-input" 
                             placeholder="+7 (999)-328-14-20">
                 </div>
             </div>
@@ -143,10 +143,11 @@
                       <textarea placeholder="Свой проект по созданию универсальной инфраструктуры строительства"></textarea>
                   </div>    
             </div>
-            <input class="submit" type="submit" value="Отправить">
+            <input class="submit" id="submit" type="button" value="Отправить">
 
     </div>
   </div>
+  <script src="js/script.js"></script> 
   <script src="js/wow.min.js"></script>
       <script>
        new WOW().init();
