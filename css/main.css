@@ -59,7 +59,6 @@ body {
   text-align: center;
   letter-spacing: -0.02em;
   color: #222222;
-  margin-bottom: 24px;
 }
 
 .header h3 {
@@ -67,7 +66,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 24px auto 0;
-  font-family: Roboto;
+  font-family: RobotoCondensed-Bold, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -240,10 +239,10 @@ body {
 }
 
 .main-content p {
-  font-family: Roboto;
+  font-family: RobotoCondensed-Bold, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 26px;
   color: #4E4D53;
   margin: 24px 0 0;
@@ -300,7 +299,7 @@ body {
 }
 
 .advantages-item p {
-  font-family: Roboto;
+  font-family: RobotoCondensed-Bold, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -362,7 +361,7 @@ body {
   color: #F47821;
   width: 64px;
   height: 64px;
-  font-family: Roboto;
+  font-family: RobotoCondensed-Bold, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -398,7 +397,7 @@ body {
 }
 
 .footer-form-input input {
-  font-family: Roboto;
+  font-family: RobotoCondensed-Bold, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -425,7 +424,7 @@ body {
   border: none;
   resize: none;
   background-color: #161616;
-  font-family: Roboto;
+  font-family: RobotoCondensed-Bold, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: #FFFFFF;
