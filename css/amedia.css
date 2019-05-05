@@ -5,7 +5,6 @@
   .container {
     width: 100%;
     margin: 0;
-    height: auto;
   }
   .header {
     height: 400px;
@@ -85,6 +84,10 @@
     font-size: 28px;
     line-height: 50px;
   }
+  .wrap-advantages {
+    height: auto;
+    margin-bottom: 30px;
+  }
   .advantages-header{
     font-size: 60px;
   }
@@ -135,6 +138,7 @@
     font-size: 27px;
     width: 590px;
     height: 70px;
+    margin-top: 65px;
   }
 }
 
