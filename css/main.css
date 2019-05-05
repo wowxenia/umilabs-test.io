@@ -406,7 +406,7 @@ body {
   border: none;
   width: 224px;
   height: 35px;
-  padding-top: 24px;
+  padding: 24px 0 0;
 }
 
 .footer-form-textarea {
