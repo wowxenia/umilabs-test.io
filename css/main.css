@@ -1,14 +1,32 @@
 @font-face {
   font-family: 'DINPro';
-  src: url("../font/DINPro.eot");
-  src: url("../font/DINPro.eot?#iefix") format("embedded-opentype"), url("../font/DINPro.woff") format("woff"), url("../font/DINPro.ttf") format("truetype"), url("../font/DINPro.svg") format("svg");
+  src: url("../font/DINPro/DINPro.eot");
+  src: url("../font/DINPro/DINPro.eot?#iefix") format("embedded-opentype"), url("../font/DINPro/DINPro.woff") format("woff"), url("../font/DINPro/DINPro.ttf") format("truetype"), url("../font/DINPro/DINPro.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url("../font/Gilroy/Gilroy.svg") format("svg"), url("../font/Gilroy/Gilroy-ExtraBold.ttf") format("truetype"), url("../font/Gilroy/Gilroy-ExtraBold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'GilroyBold';
-  src: url("../font/GilroyBold.otf");
+  src: url("../font/Gilroy/GilroyBold.eot");
+  src: url("../font/Gilroy/GilroyBold.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy/GilroyBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../font/Roboto/Roboto-Regular.eot");
+  src: url("../font/Roboto/Roboto-Regular.woff2") format("woff2"), url("../font/Roboto/Roboto-Regular.woff") format("woff"), url("../font/Roboto/Roboto-Regular.ttf") format("truetype"), url("../font/Roboto/Roboto-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 span {
@@ -63,7 +81,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin: 24px auto 0;
-  font-family: RobotoCondensed-Bold, sans-serif;
+  font-family: Roboto-Regular, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -236,7 +254,7 @@ body {
 }
 
 .main-content p {
-  font-family: RobotoCondensed-Bold, sans-serif;
+  font-family: Roboto-Regular, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -296,7 +314,7 @@ body {
 }
 
 .advantages-item p {
-  font-family: RobotoCondensed-Bold, sans-serif;
+  font-family: Roboto-Regular, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -358,7 +376,7 @@ body {
   color: #F47821;
   width: 64px;
   height: 64px;
-  font-family: RobotoCondensed-Bold, sans-serif;
+  font-family: Roboto-Regular, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -394,7 +412,7 @@ body {
 }
 
 .footer-form-input input {
-  font-family: RobotoCondensed-Bold, sans-serif;
+  font-family: Roboto-Regular, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -421,7 +439,7 @@ body {
   border: none;
   resize: none;
   background-color: #161616;
-  font-family: RobotoCondensed-Bold, sans-serif;
+  font-family: Roboto-Regular, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: #FFFFFF;
